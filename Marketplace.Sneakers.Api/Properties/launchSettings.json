@@ -1,13 +1,5 @@
 {
-  "$schema": "https://json.schemastore.org/launchsettings.json",
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:2060",
-      "sslPort": 0
-    }
-  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",  
   "profiles": {
     "Marketplace.Sneakers.Api": {
       "commandName": "Project",
@@ -16,16 +8,8 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:5197",
+      "applicationUrl": "http://localhost:5197/swagger",
       "dotnetRunMessages": true
-    },
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
     },
     "Docker": {
       "commandName": "Docker",
